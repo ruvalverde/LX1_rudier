@@ -1,0 +1,10 @@
+[   15.106550] audit: type=1400 audit(1460228847.425:8): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/sbin/dhclient" pid=435 comm="apparmor_parser"
+[   15.106564] audit: type=1400 audit(1460228847.425:9): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=435 comm="apparmor_parser"
+[   15.106573] audit: type=1400 audit(1460228847.425:10): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=435 comm="apparmor_parser"
+[   15.107240] audit: type=1400 audit(1460228847.425:11): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=435 comm="apparmor_parser"
+[   15.777016] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   15.777522] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+[   15.778059] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[   17.295429] floppy0: no floppy controllers found
+[   17.295465] work still pending
+[   18.169271] init: failsafe main process (472) killed by TERM signal
