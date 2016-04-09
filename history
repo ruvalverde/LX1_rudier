@@ -1,0 +1,146 @@
+    1  w
+    2  who
+    3  ip
+    4  ip -4 addr
+    5  clear
+    6  exit
+    7  sudo shutdown
+    8  sudo shutdown -r now
+    9  ip -4 addr
+   10  ls -l
+   11  pwd
+   12  init.d
+   13  cd /etc/init.d
+   14  ls/home
+   15  ls /home
+   16  ls -a
+   17  cd 
+   18  mkdir test1
+   19  ls
+   20  cd /test1
+   21  ls
+   22  ls -l
+   23  ls -la
+   24  cd /test1
+   25  cd test1/
+   26  cp/etc/network/interface .
+   27  cp /etc/network/interface .
+   28  cp /etc/network/interfaces .
+   29  ls -la
+   30  mkdir -p usuario{a,b}/docs/doc{1,2,3}
+   31  man 
+   32  man mkdir
+   33  tree
+   34  ls
+   35  mkdir .testrc.d
+   36  -a
+   37  ls
+   38  ls -a
+   39  touch .test1.doc.sanpedro
+   40  ls -a
+   41  ls -la
+   42  echo "Hola Mundo" > .test1.doc.sanpedro
+   43  ls -la
+   44  dmesg
+   45  ls -la
+   46  ls
+   47  man cp
+   48  cp interfaces usuarioa/docs/doc2
+   49  tree
+   50  history
+   51  cd
+   52  vim .bash_
+   53  vim .bash_history 
+   54  history
+   55  mount
+   56  history 
+   57  ip -4 addr
+   58  sudo shutdown -r now
+   59  sudo updatedb
+   60  locate vim
+   61  locate vim | less
+   62  locate vim | grep bin
+   63  sudo apt-get update 
+   64  sudo apt-get upgrade 
+   65  cd /etc/
+   66  vim passwd
+   67  id
+   68  sudo adduser rvg
+   69  su - rvg
+   70  ssh rudier@10.124.18.137
+   71  wget https://github.com/FFmpeg/FFmpeg
+   72  sudo updatedb
+   73  locate ffmpeg
+   74  ls -la
+   75  ./FFmpeg
+   76  ls -l
+   77  cd /
+   78  cd opt
+   79  ls
+   80  ls -l
+   81  ls
+   82  APACHE
+   83  apache2
+   84  local apache2
+   85  exit
+   86  cd html
+   87  /cd var
+   88  /var/www/
+   89  cd /var/www/html/
+   90  mkdir test1
+   91  touch test1/file3
+   92  tree
+   93  exit
+   94  mv index.hteml 1.html
+   95  mv index.html 1.html
+   96  cd html
+   97  mv index.html 1.html
+   98  ls
+   99  ls cpu
+  100  lscpu
+  101  systemmonitor
+  102  system monitor
+  103  ip -4 addr
+  104  exit
+  105  toor
+  106  cd /var/www
+  107  ls -la
+  108  ~.targz /home/uk/drupal-
+  109  ~.targz /home/uk/drupal-7.43.tar.gz
+  110  cp /home/uk/drupal-7.43.tar.gz
+  111  cp /home/uk/drupal-7.43.tar.gz  .
+  112  cp /home/sysadmin/drupal-7.43.tar.g
+  113  cp /home/sysadmin/drupal-7.43.tar.gz
+  114  cp /home/sysadmin/drupal-7.43.tar.gz .
+  115  /home/sysadmin/drupal-7.43.tar.gz /var/www/
+  116  cp /home/sysadmin/drupal-7.43.tar.gz .
+  117  cd sites
+  118  cd /var/sites
+  119  cd /dev/
+  120  cd /var/www
+  121  cd /var/www/sites
+  122  cd /var/sites
+  123  cd /var/sites/
+  124  cd /var/site/
+  125  cd site
+  126  cd sites
+  127  exit
+  128  cd /
+  129  ls
+  130  cd /var/www/
+  131  ls
+  132  cd drupal-7.43/
+  133  ls
+  134  ls -la
+  135  sudo apt-get install git
+  136  ls
+  137  cd sites
+  138  ls
+  139  cd www.sexybaby.com/
+  140  ls
+  141  /
+  142  cd
+  143  mkdir LX1_rudier
+  144  cd LX1_rudier/
+  145  git init
+  146  history > history
