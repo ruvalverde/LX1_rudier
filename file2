@@ -8,3 +8,7 @@
 [   17.295429] floppy0: no floppy controllers found
 [   17.295465] work still pending
 [   18.169271] init: failsafe main process (472) killed by TERM signal
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+default         10.124.18.1     0.0.0.0         UG        0 0          0 eth0
+10.124.18.0     *               255.255.255.0   U         0 0          0 eth0
