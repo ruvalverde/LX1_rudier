@@ -144,3 +144,20 @@
   144  cd LX1_rudier/
   145  git init
   146  history > history
+  147  ls -la
+  148  less history 
+  149  git add history 
+  150  git status 
+  151  git commit -m "Inicializacion del arbol de desarrollo"
+  152  git config --global user.mail "ruvalverde@gmail.com"
+  153  git config --global user.name "Rudier Valverde Gamboa"
+  154  git status
+  155  git commit -m "Inicializacion del arbol de desarrollo"
+  156  git config --global user.email "ruvalverde@gmail.com"
+  157  git commit -m "Inicializacion del arbol de desarrollo"
+  158  git commit --amend -reset-author
+  159  git commit --amend --reset-author
+  160  cat ~/gitcommit
+  161  hostname
+  162  echo $HOSTNAME
+  163  history > history.$HOSTNAME
