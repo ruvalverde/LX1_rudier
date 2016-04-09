@@ -161,3 +161,61 @@
   161  hostname
   162  echo $HOSTNAME
   163  history > history.$HOSTNAME
+  164  ls
+  165  mkdir history
+  166  rm history
+  167  mkdir history
+  168  mv history.server01  history/
+  169  ls
+  170  cd history/
+  171  ls
+  172  git status
+  173  git add history/
+  174  cd ..
+  175  git add history/
+  176  git status
+  177  touch file1
+  178  touch file2
+  179  mkdir dir1
+  180  touch dir1/file3
+  181  git status
+  182  tree
+  183  git commit -m "Inicializacion del arbol de desarrollo"
+  184  git commit --amend --reset-author
+  185  git log
+  186  clear
+  187  git log
+  188  ls -la
+  189  sudo apt-get install gitk
+  190  git log
+  191  git status 
+  192  dmesg | tail > file2
+  193  netstat -atunpl
+  194  netstat -atunpl > dir1/file3 
+  195  cat dir1/file3 
+  196  git add dir1/file3 
+  197  git add file2
+  198  git status
+  199  git commit -m "Cola de kernel + estato de conexiones"
+  200  git log
+  201  git status
+  202  netstat -r
+  203  netstat -r >> file2 
+  204  git status 
+  205  git add file2
+  206  git status 
+  207  git commit -m "tabla enrutamiento del servidor"
+  208  git log
+  209  git remote add repo.github https://github.com/ruvalverde/LX1_rudier.git
+  210  git push -u repo.github master
+  211  cd /tmp/
+  212  git clone https://github.com/ruvalverde/LX1_rudier.git casafeliz
+  213  ls -l
+  214  cd casafeliz/
+  215  ls -la
+  216  cd /
+  217  cd
+  218  cd LX
+  219  cd LX1_rudier/
+  220  history
+  221  history > history/history.server01 
