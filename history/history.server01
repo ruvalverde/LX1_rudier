@@ -125,97 +125,91 @@
   125  cd site
   126  cd sites
   127  exit
-  128  cd /
-  129  ls
+  128  ls -la
+  129  exit
   130  cd /var/www/
-  131  ls
-  132  cd drupal-7.43/
-  133  ls
-  134  ls -la
-  135  sudo apt-get install git
-  136  ls
-  137  cd sites
-  138  ls
-  139  cd www.sexybaby.com/
-  140  ls
-  141  /
-  142  cd
-  143  mkdir LX1_rudier
-  144  cd LX1_rudier/
-  145  git init
-  146  history > history
-  147  ls -la
-  148  less history 
-  149  git add history 
-  150  git status 
-  151  git commit -m "Inicializacion del arbol de desarrollo"
-  152  git config --global user.mail "ruvalverde@gmail.com"
-  153  git config --global user.name "Rudier Valverde Gamboa"
-  154  git status
-  155  git commit -m "Inicializacion del arbol de desarrollo"
-  156  git config --global user.email "ruvalverde@gmail.com"
-  157  git commit -m "Inicializacion del arbol de desarrollo"
-  158  git commit --amend -reset-author
-  159  git commit --amend --reset-author
-  160  cat ~/gitcommit
-  161  hostname
-  162  echo $HOSTNAME
-  163  history > history.$HOSTNAME
+  131  mv drupal-7.43 rudier.space
+  132  ls
+  133  ls -l
+  134  mv rudier.space/ misitio
+  135  ls -l
+  136  chown www-data:www-data  misitio/
+  137  ls -la
+  138  chown -R www-data:www-data  misitio/
+  139  cd /etc/apache2/
+  140  cd sites-available/
+  141  ls
+  142  cp 000-default.conf rudier.space
+  143  grep -v "#" 000-default.conf > rudier.space
+  144  cat rudier.space 
+  145  vim rudier.space 
+  146  vim /etc/host
+  147  vim /etc/hosts
+  148  ping www.rudier.space 
+  149  vim  000-default.conf
+  150  service apache2 restart 
+  151  vim  000-default.conf
+  152  service apache2 restart 
+  153  service apache2 reload 
+  154  vim  000-default.conf
+  155  vim rudier.space 
+  156  mv rudier.space rudier.space.conf
+  157  ls -l
+  158  vim rudier.space 
+  159  vim rudier.space.conf 
+  160  service apache2 reload 
+  161  vim rudier.space.conf 
+  162  ls
+  163  cd ..
   164  ls
-  165  mkdir history
-  166  rm history
-  167  mkdir history
-  168  mv history.server01  history/
-  169  ls
-  170  cd history/
-  171  ls
-  172  git status
-  173  git add history/
-  174  cd ..
-  175  git add history/
-  176  git status
-  177  touch file1
-  178  touch file2
-  179  mkdir dir1
-  180  touch dir1/file3
+  165  cd /var/www/html/
+  166  ls
+  167  cd ..
+  168  mv misitio/
+  169  cd misitio/
+  170  ls
+  171  cd /etc/apache2/
+  172  ls
+  173  cd sites-available/
+  174  ls
+  175  cd ..
+  176  cd sites-enabled/
+  177  ls
+  178  cd misitio/
+  179  ls
+  180  apt-get install php5
   181  git status
-  182  tree
-  183  git commit -m "Inicializacion del arbol de desarrollo"
-  184  git commit --amend --reset-author
-  185  git log
-  186  clear
-  187  git log
-  188  ls -la
-  189  sudo apt-get install gitk
-  190  git log
-  191  git status 
-  192  dmesg | tail > file2
-  193  netstat -atunpl
-  194  netstat -atunpl > dir1/file3 
-  195  cat dir1/file3 
-  196  git add dir1/file3 
-  197  git add file2
-  198  git status
-  199  git commit -m "Cola de kernel + estato de conexiones"
-  200  git log
-  201  git status
-  202  netstat -r
-  203  netstat -r >> file2 
-  204  git status 
-  205  git add file2
-  206  git status 
-  207  git commit -m "tabla enrutamiento del servidor"
-  208  git log
-  209  git remote add repo.github https://github.com/ruvalverde/LX1_rudier.git
-  210  git push -u repo.github master
-  211  cd /tmp/
-  212  git clone https://github.com/ruvalverde/LX1_rudier.git casafeliz
-  213  ls -l
-  214  cd casafeliz/
-  215  ls -la
-  216  cd /
-  217  cd
-  218  cd LX
-  219  cd LX1_rudier/
-  220  history
-  221  history > history/history.server01 
+  182  cd /home/sysadmin/LX1_rudier/
+  183  git status
+  184  apt-get install php5-mysql
+  185  a2enmod rewrite
+  186  service apache2 restart
+  187  cd /etc/apache2/
+  188  ls
+  189  cd sites-available/
+  190  ls
+  191  ln -s rudier.space.conf ./rudier.space.conf 
+  192  ls
+  193  cd ..
+  194  cd sites-enabled/
+  195  ln -s ../sites-available/rudier.space.conf ./rudier.space.conf 
+  196  ls
+  197  service apache2 restart
+  198  vim rudier.space.conf 
+  199  cd ..
+  200  cd sites-available/
+  201  ls
+  202  cd /var/www/misitio/
+  203  ls
+  204  cd sites/
+  205  ls
+  206  mv www.sexybaby.com/ www.rudier.space
+  207  ls
+  208  cd www.rudier.space/
+  209  ls
+  210  ls -t
+  211  ls -la
+  212  service apache2 restart
+  213  cd /home/sysadmin/LX1_rudier/
+  214  ls
+  215  history > history/history.server01 
